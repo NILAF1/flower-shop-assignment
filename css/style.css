@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common shared style */
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.underline {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+
+/* This is header section */
+
+
+.header-section {
+    background-color: #E554731A;
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.header-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
+}
+
+.header-pic {
+    margin: 50px 240px 0px 97px;
+}
+
+.header-title-and-discription {
+    margin: 197px 97px 180px 240px;
+}
+
+/* main section-01  */
+
+
+.main-header-01 {
+    color: #272727;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main-discription-01 {
+    display: flex;
+    max-width: 594px;
+    flex-direction: column;
+    color: dimgrey;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 663px 0px 663px;
+}
+
+.main-title-and-discription-01 {
+    width: 1920px;
+    /* height: 4867px; */
+    margin: 170px 0px 50px 0px;
+    text-align: center;
+}
+
+.main-flower {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 220px;
+    padding-top: 0px;
+}
+
+
+/* terr-01 */
+
+.pink-flower-resize {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+.pink-flower {
+    margin: 110px 76px 0px 76px;
+}
+
+.tree-01 {
+    text-align: center;
+}
+
+/* Tree-02 */
+
+.bundle-flower-resize {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.bundle-flower {
+    margin: 117px 47px 51px 47px;
+}
+
+.tree-02 {
+    text-align: center;
+}
+
+/* Tree-03 */
+
+.yallow-flower-resize {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.yallow-flower {
+    margin: 67px 75px 0px 75px;
+}
+
+.tree-03 {
+    text-align: center;
+}
+
+/* section-03 */
+
+.section-03 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+
+}
+
+.main-header-03 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.span {
+    color: #E55473;
+}
+
+.main-discription-03 {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-section-flower {
+    width: 318px;
+    height: 420px;
+
+}
+
+/* section-04 */
+
+.main-title-and-discription-02 {
+    width: 1920px;
+    /* height: 4867px; */
+    margin: 170px 0px 50px 0px;
+    text-align: center;
+}
+
+.main-header-04 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.main-discription-04 {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 663px 0px 663px;
+}
+
+.main-flower-04 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 220px 0px 220px;
+}
+
+/* main-section-05 */
+
