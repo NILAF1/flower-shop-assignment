@@ -176,12 +176,13 @@
 .section-03 {
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     width: 1922px;
     height: 620px;
+    margin-top: -60px;
 
 }
 
@@ -216,9 +217,9 @@
 
 /* section-04 */
 
+
 .main-title-and-discription-02 {
     width: 1920px;
-    /* height: 4867px; */
     margin: 170px 0px 50px 0px;
     text-align: center;
 }
@@ -251,6 +252,36 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 220px 0px 220px;
+}
+
+/* Bonus section */
+
+.shop {
+    width: 350px;
+    height: 350px;
+}
+
+.bonus-header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top:100px;
+}
+.bonus-shop{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:30px;
+}
+
+.Outlete{
+    text-align: center;
+}
+
+.span-03{
+    color:#E55473;
 }
 
 /* main-section-05 */
@@ -334,7 +365,7 @@
     flex-shrink: 0;
     background: #111010;
     margin-top: 128px;
-    
+
 }
 
 .footer-title {
@@ -342,7 +373,7 @@
     font-family: Lato;
     font-size: 48px;
     font-weight: 800;
-    margin-left:30px;
+    margin-left: 30px;
 
 
 }
@@ -363,9 +394,9 @@
     display: flex;
     width: 625px;
     flex-direction: column;
-    margin-left:570px;
-    margin-top:20px;
-    
+    margin-left: 570px;
+    margin-top: 20px;
+
 }
 
 .copy-right {
