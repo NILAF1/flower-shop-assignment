@@ -209,8 +209,8 @@
 }
 
 .main-section-flower {
-    width: 318px;
-    height: 420px;
+    width: 350px;
+    height: 450px;
 
 }
 
@@ -264,13 +264,7 @@
     height: 449px;
     flex-shrink: 0;
     border-radius: 8px;
-    position:relative;
-}
-
-.main-sub-section-05 {
-    text-align: center;
-    margin-top:150px;
-
+    position: static;
 }
 
 .section-05-head {
@@ -278,8 +272,10 @@
     text-align: center;
     font-family: Lato;
     font-size: 40px;
+    font-style: normal;
     font-weight: 800;
-    margin-top: 80px;
+    line-height: normal;
+    padding-top: 122px;
 }
 
 .section-05-discription {
@@ -289,23 +285,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 15px;
-}
-
-.btn-02 {
-    border-radius: 8px;
-    background: #E55473;
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
-    color: #FFF;
-    font-family: Lato;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border: none;
+    margin-top: 20px;
 }
 
 .email {
@@ -313,8 +293,36 @@
     height: 64px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
-    margin-top: 40px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.btn-02 {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 23px 43px;
+    gap: 10px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    margin-left: 15px;
+}
+
+::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right:500px;
+}
+
+.email-and-button {
+    margin-left: 287px;
+    margin-top: 45px;
 }
 
 /* -------------------------footer-------------------------- */
@@ -325,43 +333,6 @@
     height: 449px;
     flex-shrink: 0;
     background: #111010;
-    margin-top:128px;
-    position:relative;
-}
-
-.footer-child {
-    text-align: center;
-    margin-bottom: -110px;
-}
-
-.footer-title {
-    color: #E55473;
-    font-family: Lato;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.span-02 {
-    color: #FFFFFF;
-}
-
-.footer-discription {
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.copy-right {
-    color: rgba(255, 255, 255, 0.40);
-    text-align: center;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
+    margin-top: 128px;
+    position: relative;
 }
